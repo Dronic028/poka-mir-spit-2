@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+.release {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: rgb(59, 59, 59);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+
+
+.head_style {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.head-img {
+    width: 350px; 
+    height: 350px; 
+    border-radius: 60%; 
+    transition: 1s;
+}
+
+.head-img:hover {
+    box-shadow: 3px 3px 100px rgb(255, 255, 255);
+    border-radius: 40%;
+}
+
+
+.img-container {
+    margin: 0 auto;
+    width: 350px;
+}
+
+
+.links-container {
+    width: 350px;
+    margin: 20px auto;
+    height: 400px;
+}
+
+
+.link {
+    padding: 30px 0;
+}
+
+.img-apple {
+    width: 135px;
+}
+
+
+.yamus {
+    width: 185px;
+}
+
+.youmus {
+    width: 140px;
+}
+
+.spotifys {
+    width: 170px;
+}
+
+.footer_image {
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.button_link {
+    padding: 0 0;
+    color: white;
+    border-radius: 60px;
+    width: 110px;
+    height: 35px;
+    font-size: 17px;
+    border-width: 1px;
+    background-color: black;
+    border-color: white;
+    transition: 0.3s;
+}
+
+.button_link:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    input {
+        display: none;
+    }
+    .link a {
+        float: right;        
+    }
+    .yamus {
+        margin-left: 80px;
+    }
+    .spotifys {
+        margin-left: 90px;
+    }
+    }
+    .links-container {
+        height: 280px;
+    }
+    .link {
+        padding: 50px 0;
+    }
+
+@media screen and (max-width: 1000px) {
+    input {
+        display: none;
+    }
+    .link a {
+        float: right;        
+    }
+    .yamus {
+        margin-left: 80px;
+    }
+    .spotifys {
+        margin-left: 90px;
+    }
+    }
+    .links-container {
+        height: 400px;
+    }
+    .footer_image {
+        margin-top: 150px;
+        height: 200px;
+    }
+    
+    
